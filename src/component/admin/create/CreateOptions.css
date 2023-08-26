@@ -1,0 +1,28 @@
+.CreateOptions--container{
+    height: 200px;
+}
+
+.CreateOptions--options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: inherit;
+    margin-bottom: 50px;
+}
+
+.CreateOptions--span{
+
+    padding:10px;
+    margin: 5px;
+    border-radius: 3px;
+    color: white;
+    font-size: large;
+    
+}
+
+.CreateOptions--outlet{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}

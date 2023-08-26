@@ -1,0 +1,28 @@
+.EditOptions--container{
+    height: 100px;
+}
+
+.EditOptions--options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: inherit;
+    margin-bottom: 10px;
+}
+
+.EditOptions--span{
+
+    padding:10px;
+    margin: 5px;
+    border-radius: 3px;
+    color: white;
+    font-size: large;
+    
+}
+
+.EditOptions--outlet{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}

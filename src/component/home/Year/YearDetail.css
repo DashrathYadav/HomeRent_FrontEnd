@@ -1,0 +1,12 @@
+.YearDetail--container{
+
+    margin: 30px;
+    
+}
+.yeraDetail--year{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 5px;
+    justify-content:space-between;
+}
