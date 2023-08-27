@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { backendURL } from "../backEndURl";
 
 function LoginOwner() {
-  // const backedURL =backendURL();
-  const backedURL = "https://homerent-bcu9.onrender.com";
+  const backedURL =backendURL();
+ 
 
   const [password, setpassword] = useState("");
 

@@ -8,9 +8,7 @@ function Login() {
 
   const dispatch= useDispatch();
 
-  // const backedURL = backendURL();
-  // const backedURL="https://homerent-bcu9.onrender.com";
-  const backedURL = "https://homerent-bcu9.onrender.com";
+  const backedURL = backendURL()
 
 
   const [roomNo, setroomNo] = useState("");

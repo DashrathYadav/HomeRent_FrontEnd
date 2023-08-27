@@ -8,8 +8,8 @@ import { ToastContainer } from "react-toastify";
 import { backendURL } from "../../backEndURl";
 
 export const roomDataFetch = async ({ params }) => {
-  // const backedURL = backendURL();
-  const backedURL = "https://homerent-bcu9.onrender.com";
+  const backedURL = backendURL();
+
 
   console.log("params room no", params.roomNo);
   let result = await fetch(backedURL + "login", {
