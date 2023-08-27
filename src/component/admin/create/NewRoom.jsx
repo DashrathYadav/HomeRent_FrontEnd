@@ -10,7 +10,8 @@ import { backendURL } from "../../backEndURl";
 function NewRoom() {
   const navigate=useNavigate();
   const [roomNo, setRoomNo] = useState("");
-  const backedURL = backendURL();
+  // const backedURL = backendURL();
+  const backedURL = "https://homerent-bcu9.onrender.com";
   async function handleCreateRoom(e) {
     let result = await fetch(backedURL + "createRoom", {
       body: JSON.stringify({ roomNo: roomNo }),

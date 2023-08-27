@@ -9,7 +9,9 @@ function NewYear() {
     const navigate=useNavigate();
     const [roomNo, setRoomNo] = useState("");
     const [year, setYear] = useState("");
-    const backedURL = backendURL();
+    // const backedURL = backendURL();
+    const backedURL = "https://homerent-bcu9.onrender.com";
+
     async function handleAddYear(e) {
       let result = await fetch(backedURL + "createYear", {
         body: JSON.stringify({ roomNo: roomNo,year:year }),

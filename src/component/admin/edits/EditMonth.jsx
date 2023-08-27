@@ -65,7 +65,9 @@ function EditMonth() {
         ...formData,
         tenantIds: optionValue,
       };
-      const backedURL =backendURL();
+      // const backedURL =backendURL();
+      const backedURL = "https://homerent-bcu9.onrender.com";
+
       let result = await fetch(backedURL + "updateMonth", {
         body: JSON.stringify(data),
         method: "POST",
