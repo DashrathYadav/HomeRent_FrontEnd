@@ -19,7 +19,7 @@ import LanginPage from "./component/LandingPage";
 
 const router=createBrowserRouter(
   createRoutesFromElements(
-    <Route    path="/" >
+    <Route  basename='/HomeRent_FrontEnd' >
     <Route   path="/" element={<LanginPage/>} />
     <Route path="/login" element={<Login/>} />
     <Route path="/loginOwner" element={<LoginOwner/>} />
